@@ -1,11 +1,11 @@
 # Ingresar datos
 inicio = int(input("Número inicial del contador: "))
 fin = int(input("Número final del contador: "))
-valor_pasaje = float(input("Valor del pasaje: "))
+valorPasaje = float(input("Valor del pasaje: "))
 
 # Calcular resultados
 pasajeros = fin - inicio
-total = pasajeros * valor_pasaje
+total = pasajeros * valorPasaje
 empresa = total * 0.75
 conductor = total * 0.25
 
